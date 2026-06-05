@@ -1,0 +1,6 @@
+services:
+  sittings:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3456:80"

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+
+  <!-- Room floor — very light gray -->
+  <rect x="50" y="50" width="1100" height="700" fill="rgba(210,210,210,0.18)" rx="4"/>
+
+  <!-- Outer walls -->
+  <rect x="50" y="50" width="1100" height="700" fill="none" stroke="#9A8A78" stroke-width="12" rx="4"/>
+  <rect x="56" y="56" width="1088" height="688" fill="none" stroke="#C8BEB2" stroke-width="1" rx="3"/>
+
+  <!-- Stage / Chuppah — top wall, shallow -->
+  <rect x="400" y="50" width="400" height="90" fill="rgba(180,165,140,0.12)" stroke="#9A8A78" stroke-width="2.5"/>
+  <rect x="414" y="60" width="372" height="68" fill="none" stroke="#B0A090" stroke-width="1.2"/>
+  <rect x="426" y="120" width="348" height="6" fill="none" stroke="#B0A090" stroke-width="1"/>
+  <circle cx="432" cy="80"  r="6" fill="rgba(160,140,110,0.3)" stroke="#9A8A78" stroke-width="1.2"/>
+  <circle cx="768" cy="80"  r="6" fill="rgba(160,140,110,0.3)" stroke="#9A8A78" stroke-width="1.2"/>
+  <circle cx="432" cy="116" r="6" fill="rgba(160,140,110,0.3)" stroke="#9A8A78" stroke-width="1.2"/>
+  <circle cx="768" cy="116" r="6" fill="rgba(160,140,110,0.3)" stroke="#9A8A78" stroke-width="1.2"/>
+  <rect x="432" y="74" width="336" height="48" fill="none" stroke="rgba(180,155,110,0.4)" stroke-width="1" stroke-dasharray="6,3"/>
+
+  <!-- Bar — left wall, thin strip -->
+  <rect x="50" y="240" width="88" height="180" fill="rgba(180,165,140,0.12)" stroke="#9A8A78" stroke-width="2.5"/>
+  <rect x="58" y="250" width="72" height="24" fill="rgba(160,140,110,0.18)" stroke="#B0A090" stroke-width="1.2"/>
+  <rect x="58" y="274" width="24" height="136" fill="rgba(160,140,110,0.18)" stroke="#B0A090" stroke-width="1.2"/>
+  <circle cx="76"  cy="243" r="7" fill="none" stroke="#B0A090" stroke-width="1"/>
+  <circle cx="96"  cy="243" r="7" fill="none" stroke="#B0A090" stroke-width="1"/>
+  <circle cx="116" cy="243" r="7" fill="none" stroke="#B0A090" stroke-width="1"/>
+  <circle cx="130" cy="243" r="7" fill="none" stroke="#B0A090" stroke-width="1"/>
+
+  <!-- Buffet — right wall, thin strip -->
+  <rect x="1062" y="220" width="88" height="220" fill="rgba(180,165,140,0.12)" stroke="#9A8A78" stroke-width="2.5"/>
+  <rect x="1072" y="232" width="68" height="18" fill="rgba(160,140,110,0.18)" stroke="#B0A090" stroke-width="1"/>
+  <rect x="1072" y="256" width="68" height="18" fill="rgba(160,140,110,0.18)" stroke="#B0A090" stroke-width="1"/>
+  <rect x="1072" y="280" width="68" height="18" fill="rgba(160,140,110,0.18)" stroke="#B0A090" stroke-width="1"/>
+  <rect x="1072" y="304" width="68" height="18" fill="rgba(160,140,110,0.18)" stroke="#B0A090" stroke-width="1"/>
+  <rect x="1072" y="328" width="68" height="18" fill="rgba(160,140,110,0.18)" stroke="#B0A090" stroke-width="1"/>
+  <rect x="1072" y="352" width="68" height="18" fill="rgba(160,140,110,0.18)" stroke="#B0A090" stroke-width="1"/>
+
+  <!-- DJ / Band — bottom wall, slim -->
+  <rect x="470" y="698" width="260" height="52" fill="rgba(180,165,140,0.12)" stroke="#9A8A78" stroke-width="2.5"/>
+  <rect x="482" y="707" width="52" height="34" fill="rgba(160,140,110,0.18)" stroke="#B0A090" stroke-width="1" rx="2"/>
+  <rect x="542" y="707" width="36" height="34" fill="rgba(160,140,110,0.18)" stroke="#B0A090" stroke-width="1" rx="2"/>
+  <rect x="586" y="707" width="36" height="34" fill="rgba(160,140,110,0.18)" stroke="#B0A090" stroke-width="1" rx="2"/>
+  <rect x="630" y="707" width="52" height="34" fill="rgba(160,140,110,0.18)" stroke="#B0A090" stroke-width="1" rx="2"/>
+  <circle cx="496" cy="717" r="3" fill="rgba(120,100,80,0.35)"/>
+  <circle cx="508" cy="717" r="3" fill="rgba(120,100,80,0.35)"/>
+  <circle cx="520" cy="717" r="3" fill="rgba(120,100,80,0.35)"/>
+
+  <!-- Entrance — gap in bottom wall -->
+  <line x1="760" y1="752" x2="760" y2="740" stroke="#9A8A78" stroke-width="4"/>
+  <line x1="900" y1="752" x2="900" y2="740" stroke="#9A8A78" stroke-width="4"/>
+  <path d="M760 740 Q760 706 794 740" fill="none" stroke="#B0A090" stroke-width="1.2" stroke-dasharray="5,3"/>
+  <path d="M900 740 Q900 706 866 740" fill="none" stroke="#B0A090" stroke-width="1.2" stroke-dasharray="5,3"/>
+
+  <!-- Restrooms — bottom corners -->
+  <rect x="50"  y="640" width="100" height="110" fill="rgba(180,165,140,0.12)" stroke="#9A8A78" stroke-width="2.5"/>
+  <line x1="100" y1="640" x2="100" y2="750" stroke="#B0A090" stroke-width="1"/>
+  <path d="M56 648 Q56 682 90 682"  fill="none" stroke="#B0A090" stroke-width="1" stroke-dasharray="4,3"/>
+  <path d="M104 648 Q104 682 144 682" fill="none" stroke="#B0A090" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <rect x="1050" y="640" width="100" height="110" fill="rgba(180,165,140,0.12)" stroke="#9A8A78" stroke-width="2.5"/>
+  <line x1="1100" y1="640" x2="1100" y2="750" stroke="#B0A090" stroke-width="1"/>
+  <path d="M1056 648 Q1056 682 1090 682" fill="none" stroke="#B0A090" stroke-width="1" stroke-dasharray="4,3"/>
+  <path d="M1104 648 Q1104 682 1144 682" fill="none" stroke="#B0A090" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Structural columns -->
+  <g fill="rgba(160,140,110,0.22)" stroke="#9A8A78" stroke-width="1.2">
+    <rect x="194" y="198" width="16" height="16"/>
+    <rect x="990" y="198" width="16" height="16"/>
+    <rect x="194" y="576" width="16" height="16"/>
+    <rect x="990" y="576" width="16" height="16"/>
+    <rect x="380" y="198" width="13" height="13"/>
+    <rect x="807" y="198" width="13" height="13"/>
+    <rect x="380" y="576" width="13" height="13"/>
+    <rect x="807" y="576" width="13" height="13"/>
+  </g>
+
+</svg>
