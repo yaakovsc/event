@@ -71,8 +71,8 @@ else
 fi
 
 # ── 5. Restart nginx to pick up new volume + config ───────────────────────
-echo "[5/7] Restarting giron_nginx..."
-cd "$GIRON_DIR" && docker compose restart nginx
+echo "[5/7] Recreating giron_nginx (picks up new volume)..."
+cd "$GIRON_DIR" && docker compose up -d nginx
 sleep 4
 
 # ── 6. TLS certificate ─────────────────────────────────────────────────────
