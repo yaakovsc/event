@@ -26,6 +26,7 @@ import { GuestDialog } from '../dialogs/GuestDialog'
 import { TableDialog } from '../dialogs/TableDialog'
 import { ImportDialog } from '../dialogs/ImportDialog'
 import { StatisticsDialog } from '../dialogs/StatisticsDialog'
+import { TablesReportDialog } from '../dialogs/TablesReportDialog'
 import { UserManagementDialog } from '../dialogs/UserManagementDialog'
 
 export function Toolbar() {
@@ -47,6 +48,7 @@ export function Toolbar() {
   const [tableDialogOpen, setTableDialogOpen] = useState(false)
   const [importDialogOpen, setImportDialogOpen] = useState(false)
   const [statisticsDialogOpen, setStatisticsDialogOpen] = useState(false)
+  const [tablesReportOpen, setTablesReportOpen] = useState(false)
   const [userMgmtOpen, setUserMgmtOpen] = useState(false)
   const [isDark, setIsDark] = useState(false)
   const [confirmReset, setConfirmReset] = useState(false)
@@ -258,6 +260,15 @@ export function Toolbar() {
             <span className="hidden sm:inline">סטטיסטיקה</span>
           </button>
 
+          <button
+            onClick={() => setTablesReportOpen(true)}
+            className={`${buttonBase} bg-secondary text-secondary-foreground hover:bg-secondary/80`}
+            title="דוח שולחנות"
+          >
+            <Table2 className="w-4 h-4" />
+            <span className="hidden sm:inline">שולחנות</span>
+          </button>
+
           <div className="w-px h-6 bg-border mx-1" />
 
           <button
@@ -309,6 +320,7 @@ export function Toolbar() {
       <TableDialog open={tableDialogOpen} onClose={() => setTableDialogOpen(false)} />
       <ImportDialog open={importDialogOpen} onClose={() => setImportDialogOpen(false)} />
       <StatisticsDialog open={statisticsDialogOpen} onClose={() => setStatisticsDialogOpen(false)} />
+      <TablesReportDialog open={tablesReportOpen} onClose={() => setTablesReportOpen(false)} />
       <UserManagementDialog open={userMgmtOpen} onClose={() => setUserMgmtOpen(false)} />
     </>
   )
